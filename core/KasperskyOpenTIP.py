@@ -56,7 +56,7 @@ class KasperskyOpenTIP:
                 print(tabulate(jsondata, header,  tablefmt="grid",numalign="left",showindex=True,floatfmt=".2f"))
 
         except:
-            print(f"{c.Red}Error on ip analisys process for Kaspersky OpenTIP!{c.Reset}")
+            print(f"{c.Red}Error on ip analysis process for Kaspersky OpenTIP!{c.Reset}")
             pass
 
     def check_domain(domain):
@@ -139,7 +139,7 @@ class KasperskyOpenTIP:
                 print(tabulate(jsondata, header,  tablefmt="grid",numalign="left",showindex=True,floatfmt=".2f"))
 
         except:
-            print(f"{c.Red}Error on file analisys process for Kaspersky OpenTIP!{c.Reset}")
+            print(f"{c.Red}Error on file analysis process for Kaspersky OpenTIP!{c.Reset}")
             pass
 
     def check_url(malicious_url):
@@ -178,7 +178,7 @@ class KasperskyOpenTIP:
                 print(tabulate(jsondata, header,  tablefmt="grid",numalign="left",showindex=True,floatfmt=".2f"))
 
         except:
-            print(f"{c.Red}Error on url analisys process for Kaspersky OpenTIP!{c.Reset}")
+            print(f"{c.Red}Error on url analysis process for Kaspersky OpenTIP!{c.Reset}")
             pass
 
     def ip_whois(ip):
@@ -219,7 +219,7 @@ class KasperskyOpenTIP:
                 print(tabulate(results, header,  tablefmt="grid",numalign="left",showindex=True,floatfmt=".2f"))
 
         except:
-            print(f"{c.Red}Error on ip analisys process for Kaspersky OpenTIP!{c.Reset}")
+            print(f"{c.Red}Error on ip analysis process for Kaspersky OpenTIP!{c.Reset}")
             pass
       
     def domain_whois(ip):
@@ -262,5 +262,5 @@ class KasperskyOpenTIP:
                 print(tabulate(results, header,  tablefmt="grid",numalign="left",showindex=True,floatfmt=".2f"))
 
         except:
-            print(f"{c.Red}Error on ip analisys process for Kaspersky OpenTIP!{c.Reset}")
+            print(f"{c.Red}Error on ip analysis process for Kaspersky OpenTIP!{c.Reset}")
             pass

@@ -12,20 +12,22 @@ from core.DNSInfo import *
 from core.Validator import *
 from tabulate import tabulate
 from core.MalwareBazaar import *
+from core.SandBox import *
 
 Banner.CyberSeekBanner()
 
 def MainMenu():
-    print(f"""[{c.Red}1{c.Reset}] IP reputation
-[{c.Red}2{c.Reset}] Domain reputation
-[{c.Red}3{c.Reset}] Hostname reputation
-[{c.Red}4{c.Reset}] Url analysis
-[{c.Red}5{c.Reset}] File analysis (md5/sha256/sha512)
-[{c.Red}6{c.Reset}] Blacklist check
-[{c.Red}7{c.Reset}] Whois info
-[{c.Red}8{c.Reset}] SPF check
-[{c.Red}9{c.Reset}] DNS info
-[{c.Red}0{c.Reset}] Exit""")
+    print(f"""[{c.Red}1{c.Reset} ] IP reputation
+[{c.Red}2{c.Reset} ] Domain reputation
+[{c.Red}3{c.Reset} ] Hostname reputation
+[{c.Red}4{c.Reset} ] Url analysis
+[{c.Red}5{c.Reset} ] File analysis (md5/sha256/sha512)
+[{c.Red}6{c.Reset} ] Blacklist check
+[{c.Red}7{c.Reset} ] Whois info
+[{c.Red}8{c.Reset} ] SPF check
+[{c.Red}9{c.Reset} ] DNS info
+[{c.Red}10{c.Reset}] Sandbox Analysis
+[{c.Red}0{c.Reset} ] Exit""")
     
 
 def get_dns_resolution_ip(ip):
@@ -165,7 +167,8 @@ while True:
             DNSInformation.main(value)
         else:
             print(f"{c.Red}Invalid domain!{c.Reset}")
-        
-        
+    
+    elif option=="10":
+        SandBox.main()
     else:
         print(f"{c.Red}invalid input!\n{c.Reset}")

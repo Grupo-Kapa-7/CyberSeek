@@ -1,9 +1,12 @@
 
-# CyberSeek v1.2
+# CyberSeek v2.0
+<img width="828" alt="Screenshot 2024-06-03 at 00 43 19" src="https://github.com/sp34rh34d/CyberSeek/assets/94752464/d8a1de1d-80e9-4dad-a1bf-36287f0f949f">
+
 ### Installation
 ```
 git clone https://github.com/sp34rh34d/CyberSeek.git
 pip3 install -r requirements.txt
+cd CyberSeek && chmod +x CyberSeek.py
 ```
 ### CyberSeek Features
 * IP Reputation Lookup(VT/Kaspersky/AlienVault/Shodan)
@@ -14,9 +17,19 @@ pip3 install -r requirements.txt
 * BlackList Check (MXToolBox)
 * Whois Lookup
 * SPF Check (MXToolBox)
+* Sandbox analysis (new feature)
 * DNS Info
-  
-<img width="732" alt="Screenshot 2024-01-09 at 14 51 00" src="https://github.com/sp34rh34d/CyberSeek/assets/94752464/817c953a-3472-4c60-941c-600e9953620e">
+
+## Sandbox Analysis (New)
+Now you can run dynamic analysis for urls and files (Windows/Linux/Android), with [filescan sandbox](https://www.filescan.io).
+### Dynamic analysis for URLs
+<img width="1414" alt="Screenshot 2024-06-02 at 23 54 16" src="https://github.com/sp34rh34d/CyberSeek/assets/94752464/fc3a4633-770d-46c7-8d2c-a366914ada6c">
+
+### Dynamic analysis for files
+<img width="1179" alt="Screenshot 2024-06-03 at 00 38 23" src="https://github.com/sp34rh34d/CyberSeek/assets/94752464/9882cf1d-949c-4af7-aed9-00b7fd541e34">
+<img width="1131" alt="Screenshot 2024-06-03 at 00 38 39" src="https://github.com/sp34rh34d/CyberSeek/assets/94752464/ebdbb296-50cc-451d-8e2b-4af311b5e3c7">
+<img width="1110" alt="Screenshot 2024-06-03 at 00 38 54" src="https://github.com/sp34rh34d/CyberSeek/assets/94752464/e7364ee3-7256-424f-9092-f341be32afd3">
+<img width="1143" alt="Screenshot 2024-06-03 at 00 39 03" src="https://github.com/sp34rh34d/CyberSeek/assets/94752464/2516b11b-2b4c-4776-b6e2-918f52918ec9">
 
 ### DNS Info
 <img width="894" alt="Screenshot 2024-01-09 at 14 52 43" src="https://github.com/sp34rh34d/CyberSeek/assets/94752464/07dca212-8f94-4283-9ddd-5d95f1a4de51">
@@ -27,7 +40,7 @@ pip3 install -r requirements.txt
 ### Blacklist Check
 <img width="678" alt="Screenshot 2024-01-09 at 14 53 39" src="https://github.com/sp34rh34d/CyberSeek/assets/94752464/9d8abc60-fd29-4a89-be1d-9f5b26e7d256">
 
-### Malware Analysis
+### Malware Analysis by hash
 <img width="885" alt="Screenshot 2024-01-09 at 14 54 59" src="https://github.com/sp34rh34d/CyberSeek/assets/94752464/eeae859d-956b-4149-9dc8-46723aa7762c">
 <img width="796" alt="Screenshot 2024-01-09 at 14 55 12" src="https://github.com/sp34rh34d/CyberSeek/assets/94752464/c0663fc0-bd61-4bdf-898e-eece75a9598a">
 

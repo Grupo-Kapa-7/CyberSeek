@@ -47,6 +47,6 @@ class Banner:
                                                                                 
                            .                                .                   {c.Reset}
 Coded by:{c.Red} sp34rh34d{c.Reset}
-twitter: {c.Red}@AdonsIzaguirre{c.Reset}
-Welcome to CyberSeek v1.2 [{c.Green}https://github.com/sp34rh34d/CyberSeek{c.Reset}]
+twitter: {c.Red}@spearh34d{c.Reset}
+Welcome to CyberSeek v2.0 [{c.Green}https://github.com/sp34rh34d/CyberSeek{c.Reset}]
 ======================================================================================================""")

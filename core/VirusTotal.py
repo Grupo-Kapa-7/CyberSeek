@@ -309,7 +309,7 @@ class VirusTotal:
 
     def check_contacted_urls(hash):
         try:
-            print(f"\nChecking contected urls on VirusTotal for {c.Orange}{hash}{c.Reset}")
+            print(f"\nChecking contacted urls on VirusTotal for {c.Orange}{hash}{c.Reset}")
             url_session = f"https://www.virustotal.com/ui/files/{hash}/contacted_urls"
             agent=UserAgent().random
             headers = { 
@@ -350,7 +350,7 @@ class VirusTotal:
 
     def check_contacted_domains(hash):
         try:
-            print(f"\nChecking contected domains on VirusTotal for {c.Orange}{hash}{c.Reset}")
+            print(f"\nChecking contacted domains on VirusTotal for {c.Orange}{hash}{c.Reset}")
             url_session = f"https://www.virustotal.com/ui/files/{hash}/contacted_domains"
             agent=UserAgent().random
             headers = { 

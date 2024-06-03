@@ -23,7 +23,7 @@ class MXToolBox:
                         if verdit=="0":
                             result=f"{c.Green}Clean{c.Reset}"
                         elif verdit=="1":
-                            result=f"{c.Yellow}TiemOut{c.Reset}"
+                            result=f"{c.Yellow}TimeOut{c.Reset}"
                         else:
                             result=f"{c.Red}Listed{c.Reset}"
 
